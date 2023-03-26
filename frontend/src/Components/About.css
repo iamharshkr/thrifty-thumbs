@@ -1,0 +1,11 @@
+.element {
+    opacity: 0;
+    transform: translateX(-10%) translateY(20%);
+    transition: all 0.7s;
+  }
+  
+  .element.visible {
+    opacity: 1;
+    transform: translateX(0) translateY(0);
+  }
+  
